@@ -1,0 +1,100 @@
+footer {
+  background-color: #0f3460;
+  padding: 100px 0;
+  color: #fff;
+}
+footer h1 {
+  margin-bottom: 30px;
+  color: #e94560;
+  font-weight: 800;
+  font-style: italic;
+}
+footer .img {
+  background-color: #0c2a4d;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+footer .img i {
+  font-size: 20px;
+  margin: 5px;
+  top: 3px;
+  position: relative;
+}
+footer .img span {
+  margin-top: 5px;
+  top: 3px;
+  position: relative;
+}
+footer p {
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+footer h2 {
+  margin-bottom: 20px;
+}
+footer li {
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 60px 0; /* Adjust padding for smaller screens */
+  }
+  footer h1 {
+    margin-bottom: 20px; /* Adjust margin for smaller screens */
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+  footer .img {
+    background-color: #0c2a4d;
+    padding: 13px 10px;
+
+    border-radius: 5px;
+  }
+  footer .img i {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+  footer .img span {
+    font-size: 14px;
+  }
+  footer p {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+  footer h2 {
+    margin-bottom: 15px; /* Adjust margin for smaller screens */
+    font-size: 18px;
+  }
+
+  footer li {
+    margin-bottom: 5px; /* Adjust margin for smaller screens */
+    font-size: 13px;
+  }
+}
+
+/* Media query for screens 576px and below */
+@media (max-width: 576px) {
+  footer {
+    padding: 40px 0; /* Adjust padding for even smaller screens */
+  }
+
+  footer h1 {
+    font-size: 20px; /* Further adjust font size for smaller screens */
+  }
+
+  footer .img i {
+    font-size: 16px; /* Further adjust font size for smaller screens */
+  }
+
+  footer p {
+    font-size: 10px; /* Further adjust font size for smaller screens */
+  }
+
+  footer h2 {
+    font-size: 18px; /* Further adjust font size for smaller screens */
+  }
+
+  footer li {
+    font-size: 10px; /* Further adjust font size for smaller screens */
+  }
+}
